@@ -37,3 +37,6 @@ mvn spring-boot:run
 You can find the tutorial for this application on my blog -
 
 https://www.callicoder.com/spring-boot-websocket-chat-example/
+
+## rabbit mq with stomp support
+´docker run -di --name=stomp_rabbitmq -p 61613:61613 itzg/rabbitmq-stomp´
